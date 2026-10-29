@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daycrew - AI staff for service businesses</title>
+<meta name="description" content="Daycrew builds the AI staff that answers your phone, books the job, and follows up after hours. First product: Lantern Line, an after-hours booking desk for home service businesses.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    color: #111111;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 96px 24px 72px; }
+  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #888888; margin-bottom: 40px; }
+  h1 { font-size: 46px; font-weight: 500; line-height: 1.08; margin-bottom: 28px; letter-spacing: -0.025em; }
+  .lede { font-size: 18px; color: #555555; margin-bottom: 56px; max-width: 560px; }
+  .lede strong { color: #111111; font-weight: 600; }
+  .divider { border: none; border-top: 1px solid #e0e0e0; margin: 0; }
+  .loss { border-bottom: 1px solid #e0e0e0; padding: 26px 0; }
+  .loss:last-of-type { border-bottom: none; }
+  .loss .q { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+  .loss .a { font-size: 15px; color: #555555; }
+  .loss .cost { font-size: 12px; color: #999999; margin-top: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+  .section { margin-top: 64px; }
+  .section h2 { font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #888888; margin-bottom: 8px; }
+  .product { border-bottom: 1px solid #eee; padding: 22px 0; display: flex; justify-content: space-between; gap: 24px; }
+  .product:last-child { border-bottom: none; }
+  .product .name { font-size: 17px; font-weight: 600; margin-bottom: 4px; }
+  .product .desc { font-size: 14px; color: #555555; max-width: 380px; }
+  .product .tag { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #999999; white-space: nowrap; padding-top: 4px; }
+  .product .tag.live { color: #111111; }
+  .row { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-bottom: 1px solid #eee; font-size: 15px; }
+  .row:last-child { border-bottom: none; }
+  .row .k { color: #555555; }
+  .row .v { font-weight: 600; text-align: right; }
+  .row .v small { font-weight: 400; color: #888888; font-size: 13px; }
+  .offer { margin-top: 64px; border: 1px solid #111111; padding: 32px; }
+  .offer .price { font-size: 32px; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .offer .price small { font-size: 14px; color: #888888; font-weight: 400; letter-spacing: 0; }
+  .offer p { font-size: 15px; color: #555555; max-width: 480px; }
+  .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 12px; color: #999999; line-height: 1.8; }
+  .footer strong { color: #555555; font-weight: 600; }
+  @media (max-width: 560px) {
+    .wrap { padding: 64px 20px 56px; }
+    h1 { font-size: 34px; }
+    .product { flex-direction: column; gap: 6px; }
+    .offer { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Daycrew &middot; AI staff for service businesses</div>
+
+  <h1>The 9pm call is<br>the one that pays<br>for the year.</h1>
+
+  <p class="lede">We build the AI staff that answers your phone, books the job, and follows up &mdash; after hours, on weekends, while you are under a house. <strong>Lantern Line</strong> is our after-hours booking desk for home service businesses. It is live today.</p>
+
+  <hr class="divider">
+
+  <div class="loss">
+    <div class="q">"Your phone rings at 9pm when the power is out. It goes to voicemail."</div>
+    <div class="a">That caller is buying a generator this week. Someone else answers, someone else sells it.</div>
+    <div class="cost">Lost: an $8&ndash;12k install, with the maintenance contract attached</div>
+  </div>
+
+  <div class="loss">
+    <div class="q">"A tenant calls at 7am and nobody picks up until Monday."</div>
+    <div class="a">A tenant who does not feel looked after does not renew the slip.</div>
+    <div class="cost">Lost: a recurring tenant, every month, for a year</div>
+  </div>
+
+  <div class="loss">
+    <div class="q">"A commercial client needs service now and cannot reach anyone."</div>
+    <div class="a">They call the next business that answers. You were open twenty minutes earlier.</div>
+    <div class="cost">Lost: a $2&ndash;10k emergency call</div>
+  </div>
+
+  <div class="section">
+    <h2>What we run</h2>
+    <div class="product">
+      <div>
+        <div class="name">Lantern Line</div>
+        <div class="desc">The after-hours booking desk. Answers, qualifies the caller, and books the job. Closed hours only, so your daytime phone is never touched and your dispatcher is never replaced.</div>
+      </div>
+      <div class="tag live">Live</div>
+    </div>
+    <div class="product">
+      <div>
+        <div class="name">Quote line</div>
+        <div class="desc">Answers, collects the vehicle or job details, and returns a ballpark quote inside the call instead of a callback tomorrow.</div>
+      </div>
+      <div class="tag">Next</div>
+    </div>
+    <div class="product">
+      <div>
+        <div class="name">Follow-up</div>
+        <div class="desc">Chases the quote nobody accepted, asks for the review nobody left, and rebooks the customer who forgot.</div>
+      </div>
+      <div class="tag">Next</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>How it works</h2>
+    <div class="row"><span class="k">1. We listen</span><span class="v">20 of your missed calls <small>week one</small></span></div>
+    <div class="row"><span class="k">2. We build</span><span class="v">7 days <small>on your existing number</small></span></div>
+    <div class="row"><span class="k">3. You decide</span><span class="v">keep it or drop it <small>after 14 days</small></span></div>
+  </div>
+
+  <div class="offer">
+    <div class="price">$297 <small>&middot; 14-day pilot</small></div>
+    <p>One desk, your hours, your prices, your voice. Every call recorded, every booking written back to you. If the desk does not pay for itself inside the pilot, you keep the recordings and we part ways.</p>
+  </div>
+
+  <div class="footer">
+    <strong>Daycrew</strong> &middot; AI staff for service businesses<br>
+    US clients only &middot; Inbound calls &middot; Recording disclosure at the top of every call &middot; All-party consent where required &middot; TCPA-safe by design<br>
+    Reply to the email that sent you here and we will send the three-minute call recording from a real desk.
+  </div>
+
+</div>
+</body>
+</html>
